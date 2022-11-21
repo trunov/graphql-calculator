@@ -25,6 +25,7 @@ export const startServer = async () => {
   const app = await setupServer();
 
   app.listen(port, () => {
+    /* eslint-disable no-console */
     console.log(`express server has started on port: ${port}`);
   });
 };
