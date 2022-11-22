@@ -4,8 +4,9 @@
 ## Beginning of work
 1. Clone the repository to any folder on your computer
 2. `npm install` to install dependencies and work with project locally or to run the tests in future.
-3. `npm run dev` starts the server using ts-node-dev(similar to nodemon)
-4. `npm run build` removes ./dist using rimraf if it exists and transpiles ts into js to ./dist folder
+3. `brew install redis` if you want to run the project locally on your machine
+4. `npm run dev` starts the server using ts-node-dev(similar to nodemon)
+5. `npm run build` removes ./dist using rimraf if it exists and transpiles ts into js to ./dist folder
 
 ### In order to run the project in development mode using docker:
 - docker-compose -f docker-compose.dev.yml up
